@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    text-align: start;
+    color: white;
+    padding: 20px 40px 20px 40px;
+    gap: 40px;
+    justify-content: center;
+
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 345px;
+    background-color: rgb(31, 31, 31) !important;
+    color: white!important;
+    border-radius: 16px;
+}
+
+.chips{
+    display: flex;
+    gap: 5px;
+}
+
+.cardMedia {
+    height: 140px;
+}
+
+.chip {
+    border: 1px solid #6d00b5!important;
+    color: #a628fa!important;
+}

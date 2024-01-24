@@ -1,0 +1,66 @@
+.grey {
+  color: #8787a3 !important;
+}
+
+a {
+  text-decoration: none!important;
+  color: #a628fa!important;
+}
+
+.hr {
+  background-color: #5a5a5f;
+  width: 100%;
+}
+
+.contentHolder {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 10px 10px;
+}
+
+.imgProfile {
+  width: 200px !important;
+  height: 200px !important;
+  margin-top: 10px !important;
+}
+
+.card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  background-color: black !important;
+  border-radius: 10px !important;
+  color: white !important;
+  min-width: min-content;
+}
+
+.itemProfile {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-items: start;
+  text-align: left;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.colunm {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.name {
+  margin-top: 3px;
+}
+
+.avatar {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
